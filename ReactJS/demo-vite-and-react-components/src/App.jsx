@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import ColorBox from './components/combobox.jsx';
+import ColorBox from './features/combobox/pages/combobox.jsx';
 
 function App() {
   // const [count, setCount] = useState(0)

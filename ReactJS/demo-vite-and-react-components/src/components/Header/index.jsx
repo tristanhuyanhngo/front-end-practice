@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './style.scss'
+import './style.scss';
 
-Loading.propTypes = {
+Header.propTypes = {
     
 };
 
-function index(props) {
+function Header(props) {
     return (
         <div>
-            
+            Header
         </div>
     );
 }
 
-export default index;
+export default Header;

@@ -1,17 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './style.scss'
 
-Loading.propTypes = {
+TodoFeature.propTypes = {
     
 };
 
-function index(props) {
+function TodoFeature(props) {
     return (
         <div>
-            
+            Todo
         </div>
     );
 }
 
-export default index;
+export default TodoFeature;
