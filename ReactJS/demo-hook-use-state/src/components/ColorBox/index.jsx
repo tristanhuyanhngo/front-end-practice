@@ -14,7 +14,7 @@ function getRandomColor() {
     return COLOR_LIST[Math.trunc(Math.random() * COLOR_LIST.length)];
 }
 
-function ColorBox(props) {
+function ColorBox() {
     const [color, setColor] = useState(() => {
         const initColor = localStorage.getItem("box_color") || "deeppink";
         console.log(initColor);
